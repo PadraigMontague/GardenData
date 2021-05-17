@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.reminder-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffff;
+}
+
+.pageHeader {
+    height: 100px;
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+}
+.headerTitle {
+    width: 50%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.headerTitle p {
+    margin-left: 2.2rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.newReminderDiv {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.newReminderDiv button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    border: none;
+    margin-right: 1.2rem;
+    background-color: #009688;
+    font-size: 2rem;
+    color: #ffff;
+}
+.deleteReminder {
+    display: none;
+    width: 50%;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.deleteReminder i {
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
+}
+.editbtn {
+    background-image: url(../images/edit_btn.png);
+    width: 1.7rem;
+    height: 1.7rem;
+    background-size: cover;
+    border: none;
+    margin-right: 1.2rem;
+    background-color: #212121;
+}
+.deletebtn {
+    background-image: url(../images/delete_btn.png);
+    width: 1.7rem;
+    height: 1.7rem;
+    background-size: cover;
+    border: none;
+    margin-right: 1.2rem;
+    background-color: #212121;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.tabWrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tab {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.reminderDate {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    font-family: 'Roboto', sans-serif;
+    border-left: 1px solid #009688;
+    z-index: 1;    
+}
+
+.reminderDate p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.reminderDate input[type='radio'] {
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    /* opacity: 30%; */
+    margin-left: -10px;
+    /* margin-top: auto; */
+    margin-top: 25px;
+    margin-bottom: auto;
+    z-index: 2;
+    background-color: white;
+}
+
+.reminderDescription {
+    width: 70%;
+    height: 28px;
+    display: block;
+    text-align: start;
+    background-color: #2f2f2f;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 1rem;
+    padding-top: 1.5rem;
+}
+
+.reminderDescription:hover,
+.reminderDescription:focus {
+    background-color: #009688;
+}

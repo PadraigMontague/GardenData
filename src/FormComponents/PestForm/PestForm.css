@@ -1,0 +1,85 @@
+.form_wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formHeader {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.titleWrapper {
+    width: 69%;
+    float: left;
+    padding-left: 2.5rem;
+    color: #ffff;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pest_form {
+    margin: auto;
+    display: flex;
+    height: auto;
+    width: 500px;
+    flex-direction: column;
+}
+
+.imageContainer {
+    width: 260px;
+    height: 260px;
+    background-color: #212121;
+    margin-bottom: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../../images/upload_btn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.uploadLabel {
+    display: block;
+    margin-top: 113px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 2rem;
+    z-index: 1;
+    position: absolute;
+    color: #ffff;
+    font-weight: bolder;
+}
+
+#displayHere {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 35px;
+    z-index: 0;
+    filter:blur(2px)
+}
+
+@media only screen and (max-width:340px) {
+    .imageContainer {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 3rem;
+    }
+
+    .uploadLabel {
+        margin-top: 81px;
+        margin-left: 19px;
+        margin-right: 19px;
+        font-size: 1.5rem;
+    }
+
+    #displayHere {
+        width: 140px !important;
+        height: 140px !important;
+        margin-top: 30px;
+    }
+    
+}

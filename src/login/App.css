@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-form {
+    margin: auto;
+    display: flex;
+    height: auto;
+    width: 500px;
+    flex-direction: column;
+}
+
+input {
+    height: 3rem;
+    width: 94%;
+    margin-bottom: 6%;
+    border: 0.5px solid;
+    border-color: rgba(247, 247, 247, 0.56);
+    border-radius: 5px;
+    background-color: #000000;
+    padding-left: 7px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit-button {
+    background-color: #009688;
+    border: 1px solid;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: #ffff;
+    border-color: #009688;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 50%;
+    height: 250px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.regLink {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    form,
+    .planting_form {
+        width: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .login-form {
+        width: 70%;
+    }
+    .logo {
+        width: 100%;
+    }
+}

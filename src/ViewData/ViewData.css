@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 159px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+    position: sticky;
+    background-color: #212121;
+    top: 0;
+}
+
+.tWrapper {
+    width: 69%;
+    float: left;
+    padding-left: 2.5rem;
+    color: #ffff;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1rem;
+}
+
+
+.dataCharts {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 7rem;
+}
+
+.chart {
+    width: 90%;
+    height: 200px;
+    margin-top: 1rem;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.data {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.legend {
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+.legendTab {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-flow: nowrap row;
+}
+
+.dataColour1 {
+    width: 30px;
+    height: 30px;
+    background-color: #795548;
+    border-radius: 3px;
+}
+
+.dataColour2 {
+    width: 30px;
+    height: 30px;
+    background-color: #009688;
+    border-radius: 3px;
+}
+
+.dataColour3 {
+    width: 30px;
+    height: 30px;
+    background-color: #3F51B5;
+    border-radius: 3px;
+}
+
+.sowingLegend,
+.plantingLegend,
+.harvestingLegend {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    color: #ffff;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.datadays {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mon, .tue, .wed, .thurs, .fri, .sat, .sun {
+    /* width: 90%; */
+    height: 10px;
+    background-color: black;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.mon:hover,
+.tue:hover,
+.wed:hover,
+.thurs:hover,
+.fri:hover,
+.sat:hover,
+.sun:hover,
+.mon:focus,
+.tues:focus,
+.wed:focus,
+.thurs:focus,
+.fri:focus,
+.sat:focus,
+.sun:focus  {
+    background-color:#009688;
+}
+
+.sowArea {
+    height: 100%;
+    width: 20%;
+    background-color: #795548;
+}
+
+.plantArea {
+    height: 100%;
+    width: 50%;
+    background-color: #009688;
+}
+
+.harvestArea {
+    height: 100%;
+    width: 30%;
+    background-color: #3F51B5;
+}
+
+.mon {
+    width: 50%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+} 
+.tue {
+    width: 20%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+} 
+.wed {
+    width: 40%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+} 
+.thurs {
+    width: 10%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+} 
+.fri {
+    width: 15%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+} 
+.sat {
+    width: 85%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+} 
+.sun {
+    width: 65%;
+    background-color: #212121;
+    display: flex;
+    flex-direction: row;
+}
+
+.calender {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 274px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: #2b2b2b;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.cal-year-header {
+    width: 100%;
+    height: 50px;
+    background-color: #353535;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.leftBtn {
+    color: white;
+    float: left;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.rightBtn {
+    color: white;
+    float: right;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.cal-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #2b2b2b;
+}
+
+.cal-content > div {
+    width: 12%;
+    height: 12%;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cal-content > div:hover,
+.cal-content > div:focus {
+    background-color: #009688;
+    border-radius: 30px;
+}

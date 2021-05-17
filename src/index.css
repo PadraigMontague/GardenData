@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, #root {
+    height: 100vh;
+    width: 100%;
+    background-color: #212121;
+}
+
+a {
+    text-decoration: none;
+}
+
+.submit-button {
+    background-color: #61dafb;
+    border: 1px solid;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: #212121;
+    border-color: rgba(247, 247, 247, 0.56);
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+    form,
+    .planting_form {
+        width: 70% !important;
+    }
+
+    body, #root {
+        height: 110vh;
+    }
+}

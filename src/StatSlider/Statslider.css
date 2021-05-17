@@ -1,0 +1,96 @@
+.horizontal-scroll {
+    width: 100%;
+    min-height: 30vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    position: relative;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.horizontal-scroll > div {
+    width: 130px;
+    height: 200px;
+    border-radius: 16px;
+    background-color: #009688;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    vertical-align: top;
+}
+ .horizontal-scroll div  p {
+     text-align: center;
+     position: relative;
+     color: #ffffff;
+     vertical-align: text-top;
+ }
+
+.tile-title-1 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tile-value-1 {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tile-value-Metric {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tile-title-2 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tile-value-2 {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.tile-value-duration {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tile-title-3 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tile-value-3 {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.addData {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 0.9rem;
+    margin-top: 3.2rem;
+    font-size: 5rem;
+    color: #ffff;
+    background-color: #009688;
+    border: none;
+    outline: none;
+    text-align: center;
+}

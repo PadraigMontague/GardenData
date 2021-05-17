@@ -1,0 +1,47 @@
+.containerHeader {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.containerHeader p {
+    font-size: 2rem;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.divOne {
+    width: 50%;
+    height: 100%;
+}
+
+.containerBody {
+    min-height: 500px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.dataContainer {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    flex-grow: 0;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dataContainer {
+        width: 300px;
+        height: 200px;
+    }
+}

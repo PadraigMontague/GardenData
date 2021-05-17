@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.sidebar {
+    width: 0%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 3;
+    position: fixed;
+    transition: .6s ease-out;
+    border-right: 0.2px solid#232323;
+    overflow: hidden;
+    z-index: 4;
+    overflow-y: scroll;
+}
+
+.sidebar_btn {
+    width: 20px;
+    height: 50px;
+    position: fixed;
+    margin-left: 0%;
+    top: 1rem;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+    background-color: #009688;
+    transition: .6s ease-out;
+    outline: none;
+    background-image: url(../images/Menu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: inherit;
+    z-index: 4;
+}
+
+.sidebar_btn:hover,
+.sidebar_btn:focus {
+    background-color: #607bc5;
+}
+
+.sidebar_header {
+    width: 100%;
+    height: 200px;
+    transition:  .6s ease-out;
+    background-color: #080808;
+    border-bottom: 0.5px solid #212121;
+}
+
+.sidebar_header p {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    font-size: 29pt;
+    transition: .5s ease-in;
+    margin-left: 0px;
+    overflow: hidden;
+    margin-left: 2rem;
+}
+
+.welcome {
+    padding-top: 4rem;
+    font-weight: bold;
+}
+
+.username {
+    display: block;
+    color: #009688 !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sidebar_tab {
+    width: 99%;
+    height: 50px;
+    border-right: 2px solid #607bc5;
+    background-color: #0a0a0a;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_tab:hover,
+.sidebar_tab:focus {
+    background-color: #607bc5;
+}
+
+.sidebar_tab_heading {
+    width: 99%;
+    height: 50px;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_tab_heading p {
+    font-size: 1.3rem;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 2rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.sidebar_tab p {
+    font-size: 1.3rem;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 3rem;
+    white-space: nowrap;
+}

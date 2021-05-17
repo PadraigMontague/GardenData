@@ -1,0 +1,30 @@
+.form_wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formHeader {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.titleWrapper {
+    width: 69%;
+    float: left;
+    padding-left: 3.5rem;
+    color: #ffff;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.planting_form {
+    margin: auto;
+    display: flex;
+    height: auto;
+    width: 500px;
+    flex-direction: column;
+}

@@ -1,0 +1,168 @@
+.mode1,
+.mode2,
+.mode3 {
+    width: 100%;
+    height: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 3rem;
+}
+
+.mode2,
+.mode3 {
+    display: none;
+}
+
+.mode1,
+.mode2,
+.mode3 {
+    animation: TitleLoad 1s;
+}
+
+@keyframes TitleLoad {
+    0% {  opacity: 0  }
+    100% {  opacity: 100  }
+}
+
+.data-visualistion {
+    height: 60vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*DATA VISUALISATION*/
+
+.data-graph {
+    height: 44%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.days {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+.button-slider {
+    height: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .button-slider > button {
+    width: 20px;
+    height: 20px;
+    background-color: #696868;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+ }
+
+ .button-slider > button:hover,
+ .button-slider > button:focus {
+    background-color: #607bc5;
+    transition: ease-in 0.5s;
+}
+
+.days > div {
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.day-mon {
+    width: 10px;
+    height: 50%;
+    border-radius: 3px;
+    background-color: #607bc5;
+}
+.day-tues {
+    width: 10px;
+    height: 15%;
+    border-radius: 3px;
+    background-color: #607bc5;
+}
+.day-wed {
+    width: 10px;
+    height: 30%;
+    border-radius: 3px;
+    background-color: #607bc5;
+}
+.day-thur {
+    width: 10px;
+    height: 20%;
+    border-radius: 3px;
+    background-color: #607bc5;
+}
+.day-fri {
+    width: 10px;
+    height: 30%;
+    border-radius: 3px;
+    background-color: #607bc5;
+}
+.day-sat {
+    width: 10px;
+    height: 70%;
+    border-radius: 3px;
+    background-color: #607bc5;
+}
+.day-sun {
+    width: 10px;
+    height: 10%;
+    border-radius: 3px;
+    background-color: #607bc5;
+}
+
+.day-mon:hover,
+.day-tues:hover,
+.day-wed:hover,
+.day-thur:hover,
+.day-fri:hover,
+.day-sat:hover,
+.day-sun:hover,
+.day-mon:focus,
+.day-tues:focus,
+.day-wed:focus,
+.day-thur:focus,
+.day-fri:focus,
+.day-sat:focus,
+.day-sun:focus  {
+    background-color:#009688;
+}
+
+.day-mon,
+.day-tues,
+.day-wed,
+.day-thur,
+.day-fri,
+.day-sat,
+.day-sun  {
+    animation: ChartLoad 1s;
+}
+
+@keyframes ChartLoad {
+    0% {  height: 0%  }
+    50% {  height: fit-content(50%) }
+    100% {  height: fit-content(100%)  }
+}
